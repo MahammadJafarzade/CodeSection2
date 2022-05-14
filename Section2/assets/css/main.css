@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.edufields {
+  width: 100%;
+  height: 50vh;
+  padding: 100px 0 0  0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.education {
+  width: 44%;
+}
+
+.education h2 {
+  font-weight: 800;
+  color: #4a4a4a;
+  font-size: 50px;
+  margin-bottom: -15px;
+}
+
+.education #text {
+  font-size: 35px;
+}
+
+.education #direction {
+  padding-top: 28px;
+}
+
+.fields {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.fields:hover {
+  opacity: 1.2;
+}
+
+.fields a {
+  text-decoration: none;
+}
+
+.dgmarketing {
+  padding: 15px;
+  border: 1px solid #d3d3d5;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.dgmarketing h3 {
+  color: black;
+  margin-top: 50px;
+}
+
+.dgmarketing:hover {
+  background-color: rgba(102, 4, 119, 0.932);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  border: 0;
+  z-index: 1;
+}
+
+.dgmarketing:hover a {
+  -webkit-filter: invert(100%);
+          filter: invert(100%);
+}
+
+.dsgn {
+  padding: 15px;
+  border: 1px solid #d3d3d5;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.dsgn h3 {
+  color: black;
+  margin-top: 50px;
+}
+
+.dsgn:hover {
+  background-color: #dbbe18;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  border: 0;
+}
+
+.dsgn:hover a {
+  -webkit-filter: invert(100%);
+          filter: invert(100%);
+}
+
+.programming {
+  padding: 15px;
+  border: 1px solid #d3d3d5;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.programming h3 {
+  color: black;
+  margin-top: 50px;
+}
+
+.programming:hover {
+  background-color: #146ee4;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  border: 0;
+}
+
+.programming:hover a {
+  -webkit-filter: invert(100%);
+          filter: invert(100%);
+}
+
+.system {
+  padding: 15px;
+  border: 1px solid #d3d3d5;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.system h3 {
+  color: black;
+  margin-top: 50px;
+}
+
+.system:hover {
+  background-color: green;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  border: 0;
+}
+
+.system:hover a {
+  -webkit-filter: invert(100%);
+          filter: invert(100%);
+}
+
+@media screen and (max-width: 992px) and (min-width: 768px) {
+  .fields {
+    display: block;
+    width: 51%;
+  }
+  .fields h3 {
+    display: inline;
+    padding-left: 25px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .edufields {
+    display: block;
+    border: 0;
+    width: 768px;
+  }
+  .edufields #direction {
+    width: 112%;
+  }
+  .fields {
+    display: block;
+    border: 0;
+  }
+  .fields h3 {
+    display: inline;
+    padding-left: 25px;
+  }
+}
